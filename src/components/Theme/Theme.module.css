@@ -1,0 +1,43 @@
+.Theme {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: sans-serif;
+   
+}
+
+.Label {
+    font-weight: 1200;
+}
+
+.Select {
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #0b0303;
+    cursor: pointer;
+}
+
+
+[data-theme="dark"] {
+    --bg: #aec56f;
+    --text: #781818;
+}
+
+[data-theme="light"] {
+    --bg: #ffffff;
+    --text: #000000;
+    
+}
+[data-theme="system"] {
+    --bg: #92ca9e;
+    --text: #d5c2c2;
+}
+/* Áp dụng vào toàn trang */
+html, body {
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background 0.4s, color 0.4s;
+    margin: 0% auto;
+    padding: 0% auto;
+    min-height: 0% auto;
+}
