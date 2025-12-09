@@ -2,10 +2,8 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color: light-dark(#0d0d0d, #ececec);
   background: light-dark(#f3f3f3, #171717);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,8 +15,5 @@
 }
 
 body {
-  width: 100%;
-  max-width: 960px;
-  min-height: 100vh;
-  margin: 0 auto;
+  
 }

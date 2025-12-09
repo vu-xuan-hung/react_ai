@@ -19,8 +19,8 @@
 
 
 [data-theme="dark"] {
-    --bg: #aec56f;
-    --text: #781818;
+    --bg: #3d3e39;
+    --text: #f1f3f3;
 }
 
 [data-theme="light"] {
@@ -32,7 +32,6 @@
     --bg: #92ca9e;
     --text: #d5c2c2;
 }
-/* Áp dụng vào toàn trang */
 html, body {
     background-color: var(--bg);
     color: var(--text);
